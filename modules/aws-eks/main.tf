@@ -1,4 +1,5 @@
 module "iam_eks" {
+  # Path to your iam module
   source = "/home/kahar/Documents/iac/aws/eks/modules/aws-iam"
 
   cluster_role_name = "dev-eks-cluster-role"
